@@ -8,35 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9b2ba9b16e5171b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "cognitive/Cognitive pages.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Cognitive pages"
-            }
-          },
-          {
             "id": "d1256e46aee2553e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cognitive/Middleware.md",
+                "file": "cognitive/testing/Questions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Middleware"
+              "title": "Questions"
             }
           },
           {
             "id": "bd95705dedddc783",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cognitive/robots/swarm robotics.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "swarm robotics"
+            }
+          },
+          {
+            "id": "734175ef7c4cf4d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -50,35 +50,21 @@
             }
           },
           {
-            "id": "734175ef7c4cf4d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "cognitive/Cognitive pages.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Cognitive pages"
-            }
-          },
-          {
             "id": "2c0bacda1b8bf689",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cognitive/robots/Humanoid.md",
+                "file": "cognitive/Navigation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Humanoid"
+              "title": "Navigation"
             }
           },
           {
-            "id": "018526405375da06",
+            "id": "f880a53559070040",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -92,17 +78,17 @@
             }
           },
           {
-            "id": "c62db4d836df913b",
+            "id": "d123e0d591acf877",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cognitive/Robot components.md",
+                "file": "cognitive/robots/Middleware.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Robot components"
+              "title": "Middleware"
             }
           },
           {
@@ -119,8 +105,7 @@
               "title": "Cognitive Robotics Definitions"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -284,17 +269,33 @@
   },
   "active": "d1256e46aee2553e",
   "lastOpenFiles": [
-    "cognitive/Middleware.md",
-    "cognitive/Cognitive pages.md",
-    "cognitive/robots/Humanoid.md",
-    "cognitive/Neural networks.md",
-    "cognitive/Developmental robotics.md",
-    "cognitive/robots/Robots.md",
     "cognitive/Cognitive Robotics Definitions.md",
-    "cognitive/Robot components.md",
+    "cognitive/testing/Questions.md",
+    "cognitive/Developmental robotics.md",
+    "cognitive/Cognitive pages.md",
+    "cognitive/testing/Past Paper.md",
+    "cognitive/Navigation.md",
+    "cognitive/robots/swarm robotics.md",
+    "cognitive/Neural networks.md",
+    "cognitive/robots/Middleware.md",
+    "cognitive/robots/Robots.md",
+    "cognitive/robots/Robot components.md",
+    "cognitive/robots/Humanoid.md",
+    "random temp note.md",
+    "cognitive/testing",
+    "images/Pasted image 20260508141159.png",
+    "images/Pasted image 20260508141157.png",
+    "images/Pasted image 20260508135817.png",
+    "images/Pasted image 20260508134917.png",
+    "images/Pasted image 20260506135400.png",
+    "images/Pasted image 20260507150559.png",
+    "images",
+    "images/Pasted image 20260507154217.png",
+    "images/Pasted image 20260507153623.png",
+    "images/Pasted image 20260507153449.png",
+    "images/Pasted image 20260507150948.png",
     "cognitive/robots",
     "cognitive/Theories.md",
-    "cognitive/Pasted image 20260506135400.png",
     "NLU",
     "visual",
     "cognitive"

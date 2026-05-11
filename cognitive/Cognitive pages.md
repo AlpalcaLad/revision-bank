@@ -14,6 +14,12 @@
 
 [[Neural networks]]
 
+[[Navigation]]
+
 [[Education]]
 
 [[Ethics]]
+
+[[Questions]]
+
+[[Past Paper]]

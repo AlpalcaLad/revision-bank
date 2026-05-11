@@ -11,7 +11,7 @@ Engineering approach to the design of intelligent capabilities in robotics using
 **Cognitive robotics approaches**
 - [[Developmental robotics]]
 - [[Evolutionary robotics]]
-- [[Swarm robotics]]
+- [[swarm robotics]]
 - [[Soft robotics]]
 - [[Neurorobotics]]
 

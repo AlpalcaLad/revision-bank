@@ -1,0 +1,2 @@
+
+skit premise. Supervillian at a confrence table with his henchman. He says to one of them "You've failed me for the last time" and the guy immediately stands up so he cant be dropped to his death. The supervillian is like "dude chill why would i do that" and convinces him to sit down and then drops him to his death. The second henchman he starts berating stands up and he keeps trying and failing to convince them to sit down but theyre like "no i just saw you trick him" and the supervillain gets rly salty and angry they wont trust him
