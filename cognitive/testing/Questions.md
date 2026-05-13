@@ -73,3 +73,6 @@ Explain the difference between quantitive and qualitative path planning?
 what's the formula for leg events based on leg number?
 
 
+What is SLAM vs vSLAM vs RatSLAM?
+
+

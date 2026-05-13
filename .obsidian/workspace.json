@@ -4,11 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "9ead95fe8db26875",
+        "id": "c745b5a8e721e24a",
         "type": "tabs",
         "children": [
           {
-            "id": "d1256e46aee2553e",
+            "id": "70f1aab5aa50f629",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cognitive/Cognitive pages.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cognitive pages"
+            }
+          },
+          {
+            "id": "c7a635aaa8653baf",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,90 +36,35 @@
             }
           },
           {
-            "id": "bd95705dedddc783",
+            "id": "48135554b0691a83",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cognitive/robots/swarm robotics.md",
+                "file": "cognitive/topics/manipulation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "swarm robotics"
+              "title": "manipulation"
             }
           },
           {
-            "id": "734175ef7c4cf4d9",
+            "id": "7d6c496f1bb9ae46",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cognitive/Neural networks.md",
+                "file": "cognitive/testing/Past Paper.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Neural networks"
-            }
-          },
-          {
-            "id": "2c0bacda1b8bf689",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "cognitive/Navigation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Navigation"
-            }
-          },
-          {
-            "id": "f880a53559070040",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "cognitive/Developmental robotics.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Developmental robotics"
-            }
-          },
-          {
-            "id": "d123e0d591acf877",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "cognitive/robots/Middleware.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Middleware"
-            }
-          },
-          {
-            "id": "c95ad9a64b44a2c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "cognitive/Cognitive Robotics Definitions.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Cognitive Robotics Definitions"
+              "title": "Past Paper"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -267,21 +226,26 @@
       "bases:Create new base": false
     }
   },
-  "active": "d1256e46aee2553e",
+  "active": "7d6c496f1bb9ae46",
   "lastOpenFiles": [
-    "cognitive/Cognitive Robotics Definitions.md",
-    "cognitive/testing/Questions.md",
-    "cognitive/Developmental robotics.md",
-    "cognitive/Cognitive pages.md",
+    "cognitive/topics/Navigation.md",
     "cognitive/testing/Past Paper.md",
-    "cognitive/Navigation.md",
+    "cognitive/testing/Questions.md",
+    "cognitive/topics/manipulation.md",
+    "cognitive/topics/Ethics.md",
+    "cognitive/topics/Developmental robotics.md",
+    "cognitive/Cognitive pages.md",
+    "random temp note.md",
     "cognitive/robots/swarm robotics.md",
-    "cognitive/Neural networks.md",
+    "images/Pasted image 20260511210320.png",
+    "images/Pasted image 20260511205111.png",
+    "cognitive/topics/Cognitive Robotics Definitions.md",
+    "cognitive/topics",
     "cognitive/robots/Middleware.md",
+    "cognitive/topics/Neural networks.md",
     "cognitive/robots/Robots.md",
     "cognitive/robots/Robot components.md",
     "cognitive/robots/Humanoid.md",
-    "random temp note.md",
     "cognitive/testing",
     "images/Pasted image 20260508141159.png",
     "images/Pasted image 20260508141157.png",
@@ -292,10 +256,8 @@
     "images",
     "images/Pasted image 20260507154217.png",
     "images/Pasted image 20260507153623.png",
-    "images/Pasted image 20260507153449.png",
-    "images/Pasted image 20260507150948.png",
     "cognitive/robots",
-    "cognitive/Theories.md",
+    "cognitive/topics/Theories.md",
     "NLU",
     "visual",
     "cognitive"
