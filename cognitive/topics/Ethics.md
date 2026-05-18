@@ -37,3 +37,10 @@ Job losses
 Robot decides its own law and ethical judgement with its own algorithm
 e.g. save small child or old person automatically.
 An ethical machine is guided by its own intrinsic ethical rules to decide how to act in a given situation
+Take ethical cases, provide to a machine learning algorithm.
+4 levels of machine
+- ethical impact agents: machine that can be evaluated for ethical consequences
+- Implicit ethical agents: machines designed to avoid unethical outcomes
+- Explicit ethical agents: machines that can reason about ethics
+- Full ethical agents: machines that can make explicit moral judgements and justify them
+

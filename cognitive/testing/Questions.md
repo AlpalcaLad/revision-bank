@@ -76,3 +76,31 @@ what's the formula for leg events based on leg number?
 What is SLAM vs vSLAM vs RatSLAM?
 
 
+What is Marcov localisation?
+
+
+What are Kalman filters?
+
+
+What is monte carlo localisation?
+
+
+What does U-shaped learning mean?
+
+
+What is Motor babbling?
+
+
+What is Gu et al?
+
+
+What is Levine et al?
+
+
+Describe in detail a developmental robotics experiment.
+
+
+Describe in detail a navigational robot.
+
+
+Describe in detail a manipulation robot.
