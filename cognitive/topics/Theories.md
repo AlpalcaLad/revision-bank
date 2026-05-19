@@ -6,6 +6,14 @@ Preoperational stage - representation of objects, e.g. learn words to describe w
 Concrete operational stage - experimental stage, think logically about events e.g. are 2 cups of water the same, mix the water (7 to 11 years)
 Formal operational stage - more abstract, e.g. think more philosophically (12 and up)
 
+**Genetic Epistemology simply described**
+| Time               |   Stage                          |           Description        |
+| --------------- | ------------------------  | -------------------------|
+|0-2 years:        |  sensorimotor:              |    physical properties   |
+|2-7 years:        |  preoperational:            |    words for things       |
+|7-11 years:      |  concrete operational:  |    experiments, logic    |
+|12+ years:       |  formal operational:     |     abstract philosophy |
+
 **Wiener's Cybernetics theory**
 Principle of self-regulating (homeostasis)
 need to find an equilibrium that makes robot stable (e.g. happy for a human)

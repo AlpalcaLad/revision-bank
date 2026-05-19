@@ -104,3 +104,15 @@ Describe in detail a navigational robot.
 
 
 Describe in detail a manipulation robot.
+
+
+What is milford et al?
+
+
+What are the 4 stages of genetic epistimology?
+
+
+Recall and explain studies into social conformity
+
+
+Whats the difference between phylogenetic and ontogenetic in developmental robotics?

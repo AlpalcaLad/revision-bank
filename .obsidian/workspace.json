@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "9433bff566b948a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cognitive/robots/Middleware.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Middleware"
+            }
+          },
+          {
             "id": "d86a3842c58b046b",
             "type": "leaf",
             "state": {
@@ -97,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLU/NLU pages.md",
+                "file": "cognitive/topics/Theories.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NLU pages"
+              "title": "Theories"
             }
           },
           {
@@ -111,12 +125,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cognitive/topics/Navigation.md",
+                "file": "cognitive/topics/Education.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Navigation"
+              "title": "Education"
             }
           },
           {
@@ -148,7 +162,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -310,33 +324,33 @@
       "bases:Create new base": false
     }
   },
-  "active": "323129eaa45b0e21",
+  "active": "3966520f44c10536",
   "lastOpenFiles": [
-    "cognitive/Cognitive pages.md",
-    "cognitive/topics/Cognitive Robotics Definitions.md",
-    "cognitive/testing/Questions.md",
     "cognitive/topics/Developmental robotics.md",
-    "cognitive/topics/manipulation.md",
-    "cognitive/topics/Navigation.md",
-    "cognitive/robots/swarm robotics.md",
+    "cognitive/testing/Questions.md",
+    "cognitive/topics/Cognitive Robotics Definitions.md",
+    "cognitive/robots/Middleware.md",
+    "cognitive/Cognitive pages.md",
+    "cognitive/topics/Theories.md",
     "cognitive/topics/Education.md",
-    "cognitive/robots/Humanoid.md",
+    "cognitive/topics/Navigation.md",
     "cognitive/testing/Past Paper.md",
+    "cognitive/topics/manipulation.md",
+    "cognitive/topics/Ethics.md",
+    "cognitive/robots/Humanoid.md",
+    "cognitive/robots/swarm robotics.md",
+    "cognitive/robots/Robots.md",
     "NLU/NLU pages.md",
     "NLU/testing",
     "NLU/topics",
     "cognitive/topics/Neural networks.md",
-    "cognitive/topics/Theories.md",
-    "cognitive/robots/Robots.md",
     "NLU",
     "images/Pasted image 20260513174656.png",
-    "cognitive/topics/Ethics.md",
     "cognitive/robots/Robot components.md",
     "random temp note.md",
     "images/Pasted image 20260511210320.png",
     "images/Pasted image 20260511205111.png",
     "cognitive/topics",
-    "cognitive/robots/Middleware.md",
     "cognitive/testing",
     "images/Pasted image 20260508141159.png",
     "images/Pasted image 20260508141157.png",

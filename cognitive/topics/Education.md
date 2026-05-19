@@ -18,6 +18,11 @@ Pros:
 Robot performs better than recorder in teaching ideas (still worse than teacher but pretty close)
 Robots almost always outperform tablets etc
 
+**Outcomes**
+Cognitive outcomes - thinking/learning e.g. test scores, knowledge retention
+Affective outcomes - motivation, attitudes e.g. engagement, confidence
+Behavioural outcomes - Observable actions e.g. time spent, collaboration
+
 **Language learning**
 Classrooms not suited for language, needs to be interactive.
 Social robots would help with this rather than textbook learning.
