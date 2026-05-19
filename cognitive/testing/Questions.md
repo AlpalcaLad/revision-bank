@@ -116,3 +116,29 @@ Recall and explain studies into social conformity
 
 
 Whats the difference between phylogenetic and ontogenetic in developmental robotics?
+
+
+What is AlexNET?
+
+
+What kind of problems can/cannot a peceptron handle?
+
+
+How does dropout work?
+
+
+Explain a study that uses CNNs
+
+
+List techniques to help improve neural network performance
+
+
+What is the broad architecture of a CNN?
+
+
+What is Pooling?
+
+
+What are feature maps?
+
+
