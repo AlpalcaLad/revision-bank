@@ -139,3 +139,6 @@ Hand eye coordination for grasping levine et al 2018
 - CNN for grasp prediction
 - CNN uses network to successful servo the gripper in real time grasps
 - input: pre grasp, post grasp images
+- Continuous servoing outperforms single sample open loop method
+- When no replacement used (due to it allowing robot to pick easy objects)
+	- 17.5% failure for closed loop, 33.7% for open, for first 30 objects of 120.

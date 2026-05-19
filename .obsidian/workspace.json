@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cognitive/topics/Navigation.md",
+                "file": "cognitive/topics/manipulation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Navigation"
+              "title": "manipulation"
             }
           },
           {
@@ -148,7 +148,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -310,16 +310,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "480b7a4f64a44d15",
+  "active": "323129eaa45b0e21",
   "lastOpenFiles": [
-    "cognitive/topics/Developmental robotics.md",
     "cognitive/Cognitive pages.md",
+    "cognitive/topics/Cognitive Robotics Definitions.md",
+    "cognitive/testing/Questions.md",
+    "cognitive/topics/Developmental robotics.md",
+    "cognitive/topics/manipulation.md",
+    "cognitive/topics/Navigation.md",
     "cognitive/robots/swarm robotics.md",
     "cognitive/topics/Education.md",
-    "cognitive/testing/Questions.md",
-    "cognitive/topics/Navigation.md",
-    "cognitive/topics/Cognitive Robotics Definitions.md",
-    "cognitive/topics/manipulation.md",
     "cognitive/robots/Humanoid.md",
     "cognitive/testing/Past Paper.md",
     "NLU/NLU pages.md",
