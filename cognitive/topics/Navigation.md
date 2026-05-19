@@ -114,3 +114,12 @@ We aren't ready for camera only.
 **Advice in lecture**
 Pay attention to Monte Carlo, other common filter for classical
 grid cells place cells etc mapping into ratslam
+
+**Milford et al**
+RatSLAM proposal paper.
+- Tested on Pioneer2-DXE robot.
+- Carpeted campus building area
+- Updates every 200ms
+- 40m duration total with no starting information
+- No cartesian product, just a rep consistent with some cartesian properties.
+- RatSLAM able to reconstruct environment accurately within timeframe

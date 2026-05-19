@@ -8,7 +8,7 @@ Must integrate modules
 
 **Behaviour based robotics**
 Rodney Brooks 1991 proposed division at level of behaviour.
-He invented Rumbas
+He invented Roombas
 "Elephants dont play chess", dont worry about complex high level reasoning problems.
 Focus on low level easier tasks and basic components
 ![[Pasted image 20260507150559.png|428]]
