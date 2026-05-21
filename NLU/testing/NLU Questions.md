@@ -17,4 +17,8 @@
 > Pairwise sequence classification
 
 
+![[Pasted image 20260521133859.png]]
+ >[!question]- What is P(x)?
+> P(x) = P(monkeys|arctic)P(are|monkeys)P(my|are)P(favourite|my)P(band|favourite) = 0.1 \* 0.417 \* 0.15 \* 0.1 \* 0.1 = 0.00006255
+> Simplified: he says in lecture you technically also need to do P(arctic|start symbol)
 

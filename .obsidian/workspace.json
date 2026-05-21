@@ -22,21 +22,49 @@
             }
           },
           {
+            "id": "11fab1acb21865c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NLU/NLU pages.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "NLU pages"
+            }
+          },
+          {
+            "id": "874652036f49d5cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NLU/topics/word representations, N-Gram and RNNs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "word representations, N-Gram and RNNs"
+            }
+          },
+          {
             "id": "9535894609c260dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLU/testing/Questions.md",
+                "file": "NLU/testing/NLU Questions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Questions"
+              "title": "NLU Questions"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -198,19 +226,24 @@
       "bases:Create new base": false
     }
   },
-  "active": "74c7fd44054b8da2",
+  "active": "874652036f49d5cb",
   "lastOpenFiles": [
-    "images/Pasted image 20260521125030.png",
-    "images/Pasted image 20260521124935.png",
-    "images/Pasted image 20260521124925.png",
-    "images/Pasted image 20260521124802.png",
+    "images/Pasted image 20260521135013.png",
+    "images/Pasted image 20260521134927.png",
+    "images/Pasted image 20260521134817.png",
+    "images/Pasted image 20260521134749.png",
+    "images/Pasted image 20260521134620.png",
+    "NLU/testing/NLU Questions.md",
+    "images/Pasted image 20260521133859.png",
+    "NLU/topics/word representations, N-Gram and RNNs.md",
+    "images/Pasted image 20260521133700.png",
+    "images/Pasted image 20260521133635.png",
+    "images/Pasted image 20260521133603.png",
+    "images/Pasted image 20260521132633.png",
+    "images/Pasted image 20260521131942.png",
     "NLU/NLU pages.md",
-    "NLU/testing/Questions.md",
-    "images/Pasted image 20260521124325.png",
+    "NLU/topics/Misc.md",
     "NLU/topics/applications of NLU.md",
-    "images/Pasted image 20260521124122.png",
-    "images/Pasted image 20260521123912.png",
-    "images/Pasted image 20260521122622.png",
     "cognitive/robots/Middleware.md",
     "cognitive/topics/manipulation.md",
     "cognitive/topics/Education.md",
@@ -229,11 +262,8 @@
     "NLU/testing",
     "NLU/topics",
     "NLU",
-    "images/Pasted image 20260513174656.png",
     "cognitive/robots/Robot components.md",
     "random temp note.md",
-    "images/Pasted image 20260511210320.png",
-    "images/Pasted image 20260511205111.png",
     "cognitive/topics",
     "cognitive/testing",
     "images",
