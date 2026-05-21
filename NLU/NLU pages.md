@@ -3,7 +3,7 @@ Week 1 ([[applications of NLU]])
 
 Week 2 ([[word representations, N-Gram and RNNs]])
 
-Week 3 (Transformers)
+Week 3 ([[Transformers]])
 
 Week 4 (Text classification)
 
