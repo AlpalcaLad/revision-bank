@@ -1,5 +1,5 @@
 
-Week 1 (applications of NLU)
+Week 1 ([[applications of NLU]])
 
 Week 2 (word representations, N-Gram and RNNs)
 

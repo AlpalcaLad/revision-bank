@@ -20,7 +20,7 @@
 
 [[Ethics]]
 
-[[Questions]]
+[[cognitive/testing/Questions]]
 
 [[Past Paper]]
 
