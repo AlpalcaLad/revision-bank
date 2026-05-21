@@ -108,6 +108,6 @@ Uses cross-entropy loss, minimising difference
 ![[Pasted image 20260521134749.png|490]]
 ![[Pasted image 20260521134817.png|372]]
 
-**Sampling**
+**Generation**
 Autoregressive generation: the word generated at time step t is conditioned on word selected by RNN at time step t-1
 ![[Pasted image 20260521135013.png|426]]
