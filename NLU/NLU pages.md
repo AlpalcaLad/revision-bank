@@ -13,7 +13,7 @@ Week 6 (Sequence labelling)
 
 Week 7 ([[Span extraction]])
 
-Week 8 (Sequence-to-sequence learning)
+Week 8 ([[Sequence-to-sequence learning]])
 
 [[NLU Questions]]
 
