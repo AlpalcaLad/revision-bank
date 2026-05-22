@@ -36,6 +36,20 @@
             }
           },
           {
+            "id": "4e5480edb62cc075",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NLU/topics/Transformers.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Transformers"
+            }
+          },
+          {
             "id": "9535894609c260dc",
             "type": "leaf",
             "state": {
@@ -64,6 +78,20 @@
             }
           },
           {
+            "id": "4d540fb15f85f0d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NLU/NLU pages.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "NLU pages"
+            }
+          },
+          {
             "id": "334c8ebb574c11f0",
             "type": "leaf",
             "state": {
@@ -77,7 +105,8 @@
               "title": "Misc"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -239,25 +268,25 @@
       "bases:Create new base": false
     }
   },
-  "active": "74c7fd44054b8da2",
+  "active": "6e93286f03033f39",
   "lastOpenFiles": [
-    "NLU/testing/NLU Questions.md",
+    "NLU/topics/word representations, N-Gram and RNNs.md",
+    "NLU/topics/Transformers.md",
     "NLU/topics/Span extraction.md",
+    "NLU/NLU pages.md",
+    "images/Pasted image 20260522135201.png",
+    "images/Pasted image 20260522134956.png",
+    "images/Pasted image 20260522134802.png",
+    "NLU/testing/NLU Questions.md",
     "images/Pasted image 20260522122020.png",
     "images/Pasted image 20260522120426.png",
     "Pasted image 20260522120424.png",
-    "NLU/NLU pages.md",
     "NLU/topics/Misc.md",
-    "NLU/topics/word representations, N-Gram and RNNs.md",
     "NLU/topics/applications of NLU.md",
-    "NLU/topics/Transformers.md",
     "images/Pasted image 20260521204437.png",
     "images/Pasted image 20260521204019.png",
     "images/Pasted image 20260521202807.png",
     "images/Pasted image 20260521201406.png",
-    "images/Pasted image 20260521195145.png",
-    "images/Pasted image 20260521195029.png",
-    "images/Pasted image 20260521194106.png",
     "cognitive/robots/Middleware.md",
     "cognitive/topics/manipulation.md",
     "cognitive/topics/Education.md",
