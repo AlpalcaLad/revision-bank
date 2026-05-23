@@ -7,7 +7,7 @@ Based on vector semantics
 
 **Sparse vectors**
 Term frequency-Inverse document frequency (TF-IDF)
-- term frequency => tf_t,d = log(count(t,d) + 1)
+- term frequency => $Term freq=tf_{t,d}=log(count(t,d) + 1)$
 - document frequency => idf_t = log(N / df_t)
 	- Where N is the number of documents and df_t is the number of documents with term t
 - W_t,d = tf_t,d * idf_t

@@ -21,19 +21,53 @@ Creates a single (fixed-length) vector c based on weighted sum of all hidden sta
 Weights focus on part of source text relevant for the current token
 c is dynamically derived, i.e. different for each token during encoding
 
+**Self attention**
+![[Pasted image 20260522232358.png]]
+• Query (Q): The query vector represents the current input or the element for which we are trying to find relevant information. 
+- Example: Looking for action movies with strong female leads. 
+
+• Key (K): The key vector represents the criteria or features against which the query is compared. Each element in the input data has an associated key vector. 
+- Example: This movie is tagged as action, drama, female lead. 
+
+• Value (V): The value vector holds the actual information or content that might be relevant to the query. 
+- Example: The full movie details or recommendation result.
+
+**Calculating attention**
+- Step 1
+	- Compute Q, K and V vectors
+		- for each token compute a query, key and value vector
+	- Derived by multiplying input embeddings with learned weight matrices
+- Step 2
+	- Compute attention scores
+		- Dot product between query vector and all key vectors
+		- e.g. q1 with k1, k2, k3 ...
+		- one score per token pair
+- Step 3
+	- Normalise scores
+		- Divide each score by square root of key dimension
+		- Helps stabilise gradients during training
+	- Apply softmax
+		- All weights are positive
+		- Prob distribution over tokens
+- Step 4
+	- Compute output
+		- Multiply each value by attention weight
+		- emphasises important words
+		- representation passed to feed-forward layer
+This can be done by the following matrix calc
+![[Pasted image 20260522233034.png|504]]
+For multiple heads:
+![[Pasted image 20260522233133.png|506]]
+![[Pasted image 20260522233200.png|509]]
+![[Pasted image 20260522233208.png|510]]
+To summarise:
+![[Pasted image 20260522233247.png|546]]
+
+
 The computation of a current decoder hidden state is dependent on
 - Prior hidden state
 - Previous token
 - dynamically generated context vector c
-
-We use dot product attention based on how relevant an encoder state e is to the current decoder state d.
-score (d, e) = d . e
-Results in scalar indicating similarity between two vectors
-Calculating this for all encoder states gives a vector showing the relevance of each encoder state e to what is currently being decoded
-Softmax: used to normalise these scores for final weights
-![[Pasted image 20260521195029.png|471]]
-Where hdi-1 is d and hej is e from my previous example. Alpha is the given weight.
-![[Pasted image 20260521195145.png|473]]
 
 **Transformers**
 S shortcoming of sequence based architectures like RNNs is that they don't parallelise.
