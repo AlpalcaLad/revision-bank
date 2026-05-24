@@ -119,8 +119,7 @@
               "title": "Misc"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       },
       {
         "id": "127da3947b46ff56",
@@ -302,13 +301,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "9c485c9609e258bf",
+  "active": "874652036f49d5cb",
   "lastOpenFiles": [
-    "NLU/topics/word representations, N-Gram and RNNs.md",
+    "NLU/topics/Sequence-to-sequence learning.md",
     "NLU/testing/formula sheet.md",
+    "NLU/topics/word representations, N-Gram and RNNs.md",
+    "NLU/topics/Transformers.md",
+    "NLU/topics/Span extraction.md",
     "images/Pasted image 20260523000733.png",
     "images/Pasted image 20260523000707.png",
-    "NLU/topics/Transformers.md",
     "images/Pasted image 20260522233247.png",
     "images/Pasted image 20260522233208.png",
     "images/Pasted image 20260522233200.png",
@@ -316,11 +317,9 @@
     "images/Pasted image 20260522233034.png",
     "images/Pasted image 20260522232358.png",
     "NLU/NLU pages.md",
-    "NLU/topics/Sequence-to-sequence learning.md",
     "images/Pasted image 20260522231502.png",
     "images/Pasted image 20260522231321.png",
     "NLU/testing/NLU Questions.md",
-    "NLU/topics/Span extraction.md",
     "NLU/topics/Misc.md",
     "NLU/topics/applications of NLU.md",
     "cognitive/robots/Middleware.md",

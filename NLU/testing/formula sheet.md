@@ -20,6 +20,14 @@ $F_\beta=\frac{(\beta^2+1)PR}{((\beta^2P)+R)}$
 Typically beta is 1 so
 $F_1=\frac{2PR}{P+R}$
 
+Macro-averaging
+Averages are calculated after formula
+
+weighted macro-averaging
+averages after formula where f1 scores are multiplies by proportion of samples it represents
+
+micro-averaging
+averages are calculated before formula
 ### Word meaning
 $Term freq=tf_{t,d}=log(count(t,d) + 1)$
 
@@ -36,3 +44,7 @@ Max likelihood estimation:
 Cross entropy loss, these are the same because the correct probs are all 0 except 1, so are ignored in the sum.
 $L_{CE}(\hat{y},y)=-\sum_{k=1}^{K}{y_klog(\hat{y_k})}$  where $y$ is gold standard, $\hat{y}$ is predicted
 $L_{CE}(\hat{y},y)=-log(\hat{y_c})$   where c is the correct word
+
+### Sequence-to-sequence
+Blue-N
+$sum(min(count_{hypothesis},count_{reference}))/hypothesis_{num}$
