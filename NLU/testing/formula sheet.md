@@ -9,7 +9,16 @@ $\kappa=\frac{P(a)-P(e)}{1-P(e)}$
 $P(a)=P(A1=Yes,A2=Yes)+P(A1=No,A2=No)$
 $P(e)=P(A1=Yes)*P(A2=Yes)+P(A1=No)*P(A2=No)$
 
+Precision
+P = TP/ (TP + FP)
+
+Recall
+R = TP/(TP + FN)
+
 F-score
+$F_\beta=\frac{(\beta^2+1)PR}{((\beta^2P)+R)}$
+Typically beta is 1 so
+$F_1=\frac{2PR}{P+R}$
 
 ### Word meaning
 $Term freq=tf_{t,d}=log(count(t,d) + 1)$
