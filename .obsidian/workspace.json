@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "ff2f9472c44eef44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NLU/testing/Sequence labelling.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sequence labelling"
+            }
+          },
+          {
             "id": "de5d56c94affff70",
             "type": "leaf",
             "state": {
@@ -119,7 +133,8 @@
               "title": "Misc"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "127da3947b46ff56",
@@ -301,13 +316,17 @@
       "bases:Create new base": false
     }
   },
-  "active": "874652036f49d5cb",
+  "active": "de5d56c94affff70",
   "lastOpenFiles": [
-    "NLU/topics/Sequence-to-sequence learning.md",
-    "NLU/testing/formula sheet.md",
-    "NLU/topics/word representations, N-Gram and RNNs.md",
+    "NLU/testing/Sequence labelling.md",
     "NLU/topics/Transformers.md",
     "NLU/topics/Span extraction.md",
+    "NLU/topics/word representations, N-Gram and RNNs.md",
+    "NLU/testing/formula sheet.md",
+    "Pasted image 20260524203307.png",
+    "Pasted image 20260524202733.png",
+    "NLU/NLU pages.md",
+    "NLU/topics/Sequence-to-sequence learning.md",
     "images/Pasted image 20260523000733.png",
     "images/Pasted image 20260523000707.png",
     "images/Pasted image 20260522233247.png",
@@ -316,9 +335,6 @@
     "images/Pasted image 20260522233133.png",
     "images/Pasted image 20260522233034.png",
     "images/Pasted image 20260522232358.png",
-    "NLU/NLU pages.md",
-    "images/Pasted image 20260522231502.png",
-    "images/Pasted image 20260522231321.png",
     "NLU/testing/NLU Questions.md",
     "NLU/topics/Misc.md",
     "NLU/topics/applications of NLU.md",
@@ -340,7 +356,6 @@
     "NLU/testing",
     "NLU/topics",
     "NLU",
-    "cognitive/robots/Robot components.md",
     "cognitive/topics",
     "cognitive/testing",
     "images",

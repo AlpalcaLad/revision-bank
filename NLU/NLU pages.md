@@ -9,7 +9,7 @@ Week 4 (Text classification)
 
 Week 5 (Evaluation)
 
-Week 6 (Sequence labelling)
+Week 6 ([[Sequence labelling]])
 
 Week 7 ([[Span extraction]])
 
