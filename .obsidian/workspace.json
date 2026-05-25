@@ -132,14 +132,7 @@
               "icon": "lucide-file",
               "title": "Misc"
             }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "127da3947b46ff56",
-        "type": "tabs",
-        "children": [
+          },
           {
             "id": "9c485c9609e258bf",
             "type": "leaf",
@@ -154,7 +147,8 @@
               "title": "formula sheet"
             }
           }
-        ]
+        ],
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -316,17 +310,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "de5d56c94affff70",
+  "active": "74c7fd44054b8da2",
   "lastOpenFiles": [
+    "NLU/NLU pages.md",
+    "NLU/testing/formula sheet.md",
+    "NLU/topics/Sequence-to-sequence learning.md",
+    "NLU/topics/word representations, N-Gram and RNNs.md",
+    "NLU/topics/Span extraction.md",
     "NLU/testing/Sequence labelling.md",
     "NLU/topics/Transformers.md",
-    "NLU/topics/Span extraction.md",
-    "NLU/topics/word representations, N-Gram and RNNs.md",
-    "NLU/testing/formula sheet.md",
-    "Pasted image 20260524203307.png",
-    "Pasted image 20260524202733.png",
-    "NLU/NLU pages.md",
-    "NLU/topics/Sequence-to-sequence learning.md",
+    "NLU/testing/NLU Questions.md",
+    "images/Pasted image 20260524203307.png",
+    "images/Pasted image 20260524202733.png",
     "images/Pasted image 20260523000733.png",
     "images/Pasted image 20260523000707.png",
     "images/Pasted image 20260522233247.png",
@@ -335,7 +330,6 @@
     "images/Pasted image 20260522233133.png",
     "images/Pasted image 20260522233034.png",
     "images/Pasted image 20260522232358.png",
-    "NLU/testing/NLU Questions.md",
     "NLU/topics/Misc.md",
     "NLU/topics/applications of NLU.md",
     "cognitive/robots/Middleware.md",
