@@ -8,147 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "874652036f49d5cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NLU/NLU pages.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "NLU pages"
-            }
-          },
-          {
-            "id": "ff2f9472c44eef44",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NLU/testing/Sequence labelling.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Sequence labelling"
-            }
-          },
-          {
-            "id": "de5d56c94affff70",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NLU/topics/word representations, N-Gram and RNNs.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "word representations, N-Gram and RNNs"
-            }
-          },
-          {
-            "id": "6e93286f03033f39",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NLU/topics/Span extraction.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Span extraction"
-            }
-          },
-          {
-            "id": "4e5480edb62cc075",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NLU/topics/Transformers.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Transformers"
-            }
-          },
-          {
-            "id": "9535894609c260dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NLU/testing/NLU Questions.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "NLU Questions"
-            }
-          },
-          {
-            "id": "84e4f90fe0f336d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NLU/topics/word representations, N-Gram and RNNs.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "word representations, N-Gram and RNNs"
-            }
-          },
-          {
             "id": "4d540fb15f85f0d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLU/topics/Sequence-to-sequence learning.md",
+                "file": "Vision/vision pages.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sequence-to-sequence learning"
+              "title": "vision pages"
             }
           },
           {
-            "id": "334c8ebb574c11f0",
+            "id": "ae9044765bf151de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLU/topics/Misc.md",
+                "file": "Vision/topics/Images and Processing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Misc"
-            }
-          },
-          {
-            "id": "9c485c9609e258bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NLU/testing/formula sheet.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "formula sheet"
+              "title": "Images and Processing"
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -312,24 +200,30 @@
   },
   "active": "74c7fd44054b8da2",
   "lastOpenFiles": [
-    "NLU/NLU pages.md",
-    "NLU/testing/formula sheet.md",
+    "images/Pasted image 20260530120200.png",
+    "images/Pasted image 20260530115835.png",
+    "images/Pasted image 20260530115617.png",
+    "images/Pasted image 20260530115201.png",
+    "images/Pasted image 20260530114649.png",
+    "images/Pasted image 20260530114459.png",
+    "images/Pasted image 20260530113935.png",
+    "images/Pasted image 20260529233444.png",
+    "images/Pasted image 20260529170236.png",
+    "Vision/topics/Images and Processing.md",
+    "Vision/vision pages.md",
     "NLU/topics/Sequence-to-sequence learning.md",
+    "Vision/testing",
+    "Vision/topics",
+    "Vision",
     "NLU/topics/word representations, N-Gram and RNNs.md",
+    "NLU/testing/NLU Questions.md",
+    "NLU/testing/formula sheet.md",
+    "NLU/NLU pages.md",
     "NLU/topics/Span extraction.md",
     "NLU/testing/Sequence labelling.md",
     "NLU/topics/Transformers.md",
-    "NLU/testing/NLU Questions.md",
     "images/Pasted image 20260524203307.png",
     "images/Pasted image 20260524202733.png",
-    "images/Pasted image 20260523000733.png",
-    "images/Pasted image 20260523000707.png",
-    "images/Pasted image 20260522233247.png",
-    "images/Pasted image 20260522233208.png",
-    "images/Pasted image 20260522233200.png",
-    "images/Pasted image 20260522233133.png",
-    "images/Pasted image 20260522233034.png",
-    "images/Pasted image 20260522232358.png",
     "NLU/topics/Misc.md",
     "NLU/topics/applications of NLU.md",
     "cognitive/robots/Middleware.md",
@@ -345,17 +239,12 @@
     "cognitive/robots/Humanoid.md",
     "cognitive/topics/Navigation.md",
     "cognitive/topics/Ethics.md",
-    "cognitive/robots/swarm robotics.md",
-    "cognitive/robots/Robots.md",
     "NLU/testing",
     "NLU/topics",
     "NLU",
     "cognitive/topics",
     "cognitive/testing",
     "images",
-    "cognitive/robots",
-    "NLU",
-    "visual",
-    "cognitive"
+    "cognitive/robots"
   ]
 }
