@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "f660bdeb9e90814a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vision/topics/Edges and Convolution.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Edges and Convolution"
+            }
+          },
+          {
             "id": "ae9044765bf151de",
             "type": "leaf",
             "state": {
@@ -200,17 +214,20 @@
   },
   "active": "74c7fd44054b8da2",
   "lastOpenFiles": [
+    "images/Pasted image 20260530123325.png",
+    "images/Pasted image 20260530123311.png",
+    "images/Pasted image 20260530123218.png",
+    "images/Pasted image 20260530122605.png",
+    "images/Pasted image 20260530122224.png",
+    "images/Pasted image 20260530122159.png",
+    "images/Pasted image 20260530121837.png",
+    "images/Pasted image 20260530121545.png",
+    "images/Pasted image 20260530120422.png",
+    "Vision/topics/Edges and Convolution.md",
+    "Vision/vision pages.md",
+    "Vision/topics/Images and Processing.md",
     "images/Pasted image 20260530120200.png",
     "images/Pasted image 20260530115835.png",
-    "images/Pasted image 20260530115617.png",
-    "images/Pasted image 20260530115201.png",
-    "images/Pasted image 20260530114649.png",
-    "images/Pasted image 20260530114459.png",
-    "images/Pasted image 20260530113935.png",
-    "images/Pasted image 20260529233444.png",
-    "images/Pasted image 20260529170236.png",
-    "Vision/topics/Images and Processing.md",
-    "Vision/vision pages.md",
     "NLU/topics/Sequence-to-sequence learning.md",
     "Vision/testing",
     "Vision/topics",
@@ -222,8 +239,6 @@
     "NLU/topics/Span extraction.md",
     "NLU/testing/Sequence labelling.md",
     "NLU/topics/Transformers.md",
-    "images/Pasted image 20260524203307.png",
-    "images/Pasted image 20260524202733.png",
     "NLU/topics/Misc.md",
     "NLU/topics/applications of NLU.md",
     "cognitive/robots/Middleware.md",
@@ -238,7 +253,6 @@
     "cognitive/testing/Past Paper.md",
     "cognitive/robots/Humanoid.md",
     "cognitive/topics/Navigation.md",
-    "cognitive/topics/Ethics.md",
     "NLU/testing",
     "NLU/topics",
     "NLU",
