@@ -124,3 +124,132 @@
 - Not invariant to image scale
 	- ![[Pasted image 20260601001307.png|315]]
 
+**Descriptors**
+Naive approach
+- Exhaustive search
+- Compare descriptors whilst varying patch size
+	- handles different sized patches
+	- very inefficient
+
+Automatic scale selection
+- Function on the region that is scale invariant
+	- Same value for corresponding regions even at different scales
+	- take local maximum of function
+	- ![[Pasted image 20260601104843.png|399]]
+	- invariant region size found independently in each image
+- Laplacian-of-Gaussian achieves this (LOG)
+	- aka blob detector
+	- Laplacian of an image
+		- Sum of the second partial deriv respect to x and the one for y
+		- ![[Pasted image 20260601113306.png|357]]
+		- Can run Laplacian kernel over image to achieve
+		- Scalar value
+			- found using a single mask
+			- orientation information is lost
+		- second order derivative
+			- taking derivatives increases noise
+			- noise sensitive
+	- Always combine Laplacian with smoothing operation
+		- smooth -> Laplacian
+	- This locates blobs and gets maximum response when it fits the blob perfectly
+		- characteristic scale: scale that gets peak response of LOG
+	- Can also find interest points
+		- Local maxima in scale space of LOG
+		- Convolve with multiple scales of sigma
+		- compare if maxima exists across scales
+
+**Harris-Laplace**
+- Initialisation
+	- Multiscale Harris corner detection
+	- $\sigma, \sigma^2, \sigma^3, \sigma^4$
+- scale selection
+	- based on LOG
+	- only choose points that are also maxima in LOG
+- Motivation
+	- Harris detects corners
+	- using both can detect more variety of features
+		- might also detect blob like features
+
+**Approximating LOG with DOG (difference of gaussians)**
+- $DOG=G(x,y,k\sigma)-G(x,y,\sigma)$
+- Cheaper than 2nd derivatives
+	- we often already need to compute Gaussians
+		- we can reuse these
+		- aka Gaussian scale pyramid
+- Used in Lowe's SIFT pipeline for feature detection
+- Convolving multiple times with a gaussian adds powers of sigma
+- Typically subsample every 2nd pixel etc
+	- given we've lost detail from blur anyway
+- Method
+	- Detect maxima in DOG in scale space
+	- Reject low contrast points
+	- Eliminate edge responses
+
+**Local feature descriptor**
+- Simplest method
+	- Square window of surrounding pixels
+		- Write regions as vectors
+		- compute distance between vectors
+		- not invariant to even small changes
+- More robust
+	- Surrounding image gradients
+	- ignore magnitude to make lighting invariant
+	- Find dominant direction of gradient for image patch
+	- Rotate patch according to this angle
+		- Canonical orientation
+		- makes system rotation invariant
+
+**SIFT**
+- Used for matching local features
+- Requirements
+	- Feature invariance
+		- invariant to translation, rotation and scale
+		- invariant feature descriptor
+- Method
+	- Find candidate locations using DOG
+		- note scale they're found in
+		- reject features along edges
+			- Discard with strong edge response (R using det M and trace M)
+	- Carries out gradient orientation over 16x16 pixel region
+		- compute histogram of this
+			- Quantise directions into eight bins
+		- Select dominant orientation of histogram
+		- Concatenated into vector
+		- Descriptor 128 dimension vector
+- Result
+	- one image yields
+		- n 128-dimensional descriptors
+		- n scale parameters (size for each patch)
+		- n orientation parameters (angle for each patch)
+		- n 2D points (position for each patch)
+- Performance
+	- Handle up to 60* out of plane rotation
+	- significant illumination change handling
+	- real time performance
+- Finding matches
+	- Distance function for two descriptors
+		- simplest
+			- SSD (Sum squared distance)
+				- If many good possible options, ambiguous
+				- can give good scores to bad matches
+		- more robust
+			- ratio distance SSD(f1,f2)/SSD(f1,f2')
+				- where f1 is the feature in image 1
+				- f2 is the best match in image 2
+				- f2' is the second best match
+			- only consider ones with big enough ratio
+	- For each feature in image 1
+		- Test all features in image 2 
+			- find one with min distance
+			- throw out features with distance > threshold
+				- picking threshold hard task, balancing act
+
+**Evaluation**
+ROC curve
+- true positive rate
+	- num matched true positives / num true positives
+- false positive rate
+	- num matches false positives / num true negatives
+- maximise true positive -> 1
+- minimise false positive -> 0
+
