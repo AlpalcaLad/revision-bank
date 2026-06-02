@@ -47,6 +47,8 @@
 	- Find this particular object
 	- Find ANY of an object
 		- e.g. any car
+- deep neural nets can perform > 99%
+	- classical models generally get up to 78%
 
 **Visual Object Categories**
 - Basic level categories are defined predominantly visually
@@ -59,3 +61,46 @@
 	- some clutter in background
 	- whole image labelled, not segmented
 
+**Bag of words**
+- Independent features
+- Histogram representation
+	- summarise image based on distribution of word occurrences
+	- Fixed size representation of an image
+		- size of visual vocabulary
+		- can directly compare images
+	- loss of structural information
+- csurka et al
+	- works well for image-level classification
+- Both presence of visual words and co-occurrence are indicators of a category
+
+**Feature detection**
+- regular grid
+	- colour histogram approach
+	- fixed size grid divides up image
+- interest point detection
+	- scale invariant
+	- descriptors using e.g. sift
+
+**Image classification**
+- Given bag of words model
+- Generative methods
+	- p(image|class)
+	- probabilistic ideas
+	- e.g. Naive bayes model
+		- assume each feature is conditionally independent given class
+		- $p(w_1,\dots,w_N|c)=\prod_{i=1}^Np(w_i|c)$
+		- ![[Pasted image 20260602115434.png|314]]
+		- csurka et al
+- Discriminative method
+	- Learn decision rules
+	- each rule has a boundary
+	- e.g. nearest neighbour classification
+		- high dimensional space divided into regions
+			- each region separated by decision boundaries
+		- can do k-Nearest neighbour
+			- which category do most nearest neighbours fall into
+	- properties
+		- simple and flexible
+		- handles multi-class
+		- large search problem
+		- storage of data hard
