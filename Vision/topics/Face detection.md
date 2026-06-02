@@ -1,0 +1,117 @@
+**Decision trees**
+- Made by Freund and Schapire 
+- Decision tree
+	- ![[Pasted image 20260602125932.png|400]]
+- Deciding on question order
+	- e.g. ![[Pasted image 20260602130055.png|427]]
+		- Gini impurity
+			- $Gini = 1-p_y^2-p_n^2$
+			- ![[Pasted image 20260602130151.png|329]]
+			- Lowest Gini impurity is the best root node
+			- Doesn't perfectly classify data
+				- Just gives probabilities
+			- Handling numerical variables
+				- Sort values in ascending order
+				- ![[Pasted image 20260602130652.png|340]]
+- Random Forests
+	- Decision trees don't classify perfectly
+	- Random forests create a "bootstrapped dataset"
+		- Take random samples from old dataset into new dataset
+		- until same number as original
+		- duplicates are allowed
+		- Can randomly choose subset of variables at each layer
+	- Once many trees made
+		- For a new patient process using every decision tree
+		- highest vote from tally is result
+
+**AdaBoost**
+- Adaptive boosting
+- data classification method
+- uses weak learners
+	- generally stumps
+		- some stumps matter more
+		- unlike random forest where all trees mattered equally
+	- new stumps take account of previous stumps' mistakes
+- Forest of stumps
+	- Each sample in training data given weight
+		- total is 1
+		- initially uniform
+	- Each variable tested for how much it classifies the data
+		- same as previous method (Gini impurity)
+	- Lowest impurity is first stump in forest
+	- Weight updating
+		- total error is sum of weights for all samples it got wrong
+		- amount of say of that stump (importance)
+			- $say=\frac{1}{2}(\frac{1-error_{total}}{error_{total}})$
+		- update weight of incorrect samples
+			- $weight \rightarrow weight \times e^{say}$
+		- and correct samples
+			- $weight \rightarrow weight \times e^{-say}$
+		- normalise weights so they add to 1
+	- repeat for new stump
+
+**Face detection**
+- Applications
+	- Face detection
+		- focus, exposure and red-eye removal
+		- tracking
+		- adult/child detection
+		- cat/dog detection
+	- Face recognition (not covered on course)
+		- tagging of images
+- Visual cues of faces
+	- Pattern in blurred contrast-adjusted image
+	- eyes and nose etc
+	- ![[Pasted image 20260602132435.png|191]]
+	- ![[Pasted image 20260602132500.png|176]]
+- Viola Jones algorithm
+	- Simple method we look at assumes vertical face (no rotation)
+	- Requirements
+		- 15 frames per second 
+		- 90-95% detection rate
+		- $10^{-5}$ false positive rate
+	- Assumptions
+		- Frontal upright faces only
+		- efficient to compute features only
+		- efficient image representation
+		- AdaBoost for choice of features
+		- cascade of classifiers
+	- Rectangular features
+		- We can look for dark and light patches in certain arrangements
+			- $F=\sum_{r\in A}I(r) - \sum_{r \in B}I(r)$
+				- where A is light region and B is dark region
+				- ![[Pasted image 20260602132835.png|268]]
+		- convolution too inefficient but similar idea
+			- faces have varying size
+			- would need multiple convolutions with different sized kernels
+	- Integral image
+		- $\mathcal{I}(x,y)=\sum_{a\leq x}\sum_{b\leq y} I(a,b)$
+			- sum of all pixels to the left and above current
+			- $\mathcal{I}$ is for integral, $I$ for intensity
+			- calculated in one pass
+				- using previously calculated values
+			- values wont fit in array of ubytes
+	- using integral image for F
+		- ![[Pasted image 20260602133348.png|373]]
+		- ![[Pasted image 20260602133541.png|375]]
+	- rectangular features on faces
+		- faces of 24x24 pixels roughly aligned
+		- 2, 3 and 4 rectangle features -> 180,000 possibilities
+			- use single stage weak AdaBoost classifier to reduce possibilities
+				- 200 features gives 95% detection rate and 1 in 14k false positive rate
+				- currently still too slow for full image
+		- normalised intensities
+			- $x'=(x-\hat{x})/\sigma$
+				- where $\hat{x}$ is mean intensity in window and $\sigma$ is standard deviation
+			- ![[Pasted image 20260602133803.png|392]]
+	- searching a whole image
+		- cascade classifier
+			- most patches on image are not faces
+			- ![[Pasted image 20260602134045.png|392]]
+			- 10 stage cascade
+				- false positive $6\times 10^{-6}$
+				- detection rate 90%
+				- first 5 stages of cascade
+					- 1 feature, 10, 25, 25 and 50
+					- ie if area doesn't have that first feature discard and move on
+				- 0.067 seconds, real time
