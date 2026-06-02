@@ -34,6 +34,132 @@
               "icon": "lucide-file",
               "title": "Questions"
             }
+          },
+          {
+            "id": "6d17abd10bbac82d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vision/topics/Local Features.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Local Features"
+            }
+          },
+          {
+            "id": "6263ef026b2e75ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vision/topics/Image stitching.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Image stitching"
+            }
+          },
+          {
+            "id": "cd911c5fc1ca41dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vision/topics/Model based vision.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Model based vision"
+            }
+          },
+          {
+            "id": "84851fddb1050aac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vision/topics/Model based vision.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Model based vision"
+            }
+          },
+          {
+            "id": "74883fabbc5f6003",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vision/topics/Hough Transform.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Hough Transform"
+            }
+          },
+          {
+            "id": "41fdb5d77e20363f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vision/topics/Edges and Convolution.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Edges and Convolution"
+            }
+          },
+          {
+            "id": "4fb75fe7e4c6baa9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vision/topics/Segmentation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Segmentation"
+            }
+          },
+          {
+            "id": "47c0def31776a9a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vision/topics/Stereo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Stereo"
+            }
+          },
+          {
+            "id": "d8d30cdccfda17c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vision/topics/Object recognition.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Object recognition"
+            }
           }
         ],
         "currentTab": 1
@@ -198,20 +324,21 @@
       "bases:Create new base": false
     }
   },
-  "active": "74c7fd44054b8da2",
+  "active": "37c112c9ef96d0df",
   "lastOpenFiles": [
-    "Vision/topics/Images and Processing.md",
-    "Vision/testing/Questions.md",
-    "Vision/topics/Segmentation.md",
-    "Vision/topics/Hough Transform.md",
     "Vision/topics/Edges and Convolution.md",
-    "Vision/topics/Image stitching.md",
+    "Vision/topics/Hough Transform.md",
     "Vision/topics/Local Features.md",
-    "Vision/topics/Stereo.md",
-    "Vision/vision pages.md",
+    "Vision/testing/Questions.md",
+    "Vision/topics/Image stitching.md",
     "Vision/topics/Model based vision.md",
-    "images/Pasted image 20260602135018.png",
+    "Vision/topics/Images and Processing.md",
     "Vision/topics/Object recognition.md",
+    "Vision/topics/Segmentation.md",
+    "Vision/vision pages.md",
+    "images/Pasted image 20260602203209.png",
+    "Vision/topics/Stereo.md",
+    "images/Pasted image 20260602135018.png",
     "images/Pasted image 20260602134607.png",
     "images/Pasted image 20260602134542.png",
     "NLU/testing/NLU Questions.md",
@@ -222,7 +349,6 @@
     "images/Pasted image 20260602133348.png",
     "images/Pasted image 20260602132835.png",
     "images/Pasted image 20260602132500.png",
-    "images/Pasted image 20260602125932.png",
     "NLU/topics/Sequence-to-sequence learning.md",
     "Vision/testing",
     "Vision/topics",

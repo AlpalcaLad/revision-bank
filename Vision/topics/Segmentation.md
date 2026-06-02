@@ -121,4 +121,30 @@ Approach
 - Repeat until convergence
 ![[Pasted image 20260531132028.png|437]]
 
-NB: need to do final two videos
+**Mean shift**
+- algorithm
+	- initialise random location for window W
+	- calculate centre of all points in W
+	- shift search window to this centre
+	- repeat
+- properties
+	- relies on a well selected window size
+		- not trivial to choose
+	- model free
+		- no assumption of shape e.g. spherical etc
+	- single param (window size h)
+	- robust to outliers
+
+**GrabCut**
+Give box surrounding object as input
+![[Pasted image 20260602203209.png|438]]
+- initial assumption
+	- everything inside box is foregound
+	- everything outside is background
+- iterate between two steps
+	- segmentation using graph cuts
+	- foreground background modelling
+		- unsupervised clustering
+- uses Gaussian mixture models
+- superpixels help performance
+- precision/recall are evaluation metrics
