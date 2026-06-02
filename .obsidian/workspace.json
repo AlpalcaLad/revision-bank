@@ -22,115 +22,17 @@
             }
           },
           {
-            "id": "9489fae663a170a8",
+            "id": "37c112c9ef96d0df",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vision/topics/Face detection.md",
+                "file": "Vision/testing/Questions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Face detection"
-            }
-          },
-          {
-            "id": "8f6b0f4d2a446066",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vision/topics/Object recognition.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Object recognition"
-            }
-          },
-          {
-            "id": "1b78eb40b4e69468",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vision/topics/Image stitching.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Image stitching"
-            }
-          },
-          {
-            "id": "aa9eb295232d60aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vision/topics/Stereo.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Stereo"
-            }
-          },
-          {
-            "id": "9ac97f522e325fa8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vision/topics/Local Features.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Local Features"
-            }
-          },
-          {
-            "id": "e1dd0af94b84c3b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vision/topics/Model based vision.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Model based vision"
-            }
-          },
-          {
-            "id": "251dd94f0ac997cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vision/topics/Segmentation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Segmentation"
-            }
-          },
-          {
-            "id": "40daa4a647a1107e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vision/topics/Edges and Convolution.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Edges and Convolution"
+              "title": "Questions"
             }
           }
         ],
@@ -298,6 +200,22 @@
   },
   "active": "74c7fd44054b8da2",
   "lastOpenFiles": [
+    "Vision/topics/Images and Processing.md",
+    "Vision/testing/Questions.md",
+    "Vision/topics/Segmentation.md",
+    "Vision/topics/Hough Transform.md",
+    "Vision/topics/Edges and Convolution.md",
+    "Vision/topics/Image stitching.md",
+    "Vision/topics/Local Features.md",
+    "Vision/topics/Stereo.md",
+    "Vision/vision pages.md",
+    "Vision/topics/Model based vision.md",
+    "images/Pasted image 20260602135018.png",
+    "Vision/topics/Object recognition.md",
+    "images/Pasted image 20260602134607.png",
+    "images/Pasted image 20260602134542.png",
+    "NLU/testing/NLU Questions.md",
+    "Vision/topics/Face detection.md",
     "images/Pasted image 20260602134045.png",
     "images/Pasted image 20260602133803.png",
     "images/Pasted image 20260602133541.png",
@@ -305,27 +223,11 @@
     "images/Pasted image 20260602132835.png",
     "images/Pasted image 20260602132500.png",
     "images/Pasted image 20260602125932.png",
-    "Vision/topics/Face detection.md",
-    "images/Pasted image 20260602132435.png",
-    "images/Pasted image 20260602130652.png",
-    "images/Pasted image 20260602130151.png",
-    "images/Pasted image 20260602130055.png",
-    "Vision/vision pages.md",
-    "Vision/topics/Object recognition.md",
-    "Vision/topics/Image stitching.md",
-    "Vision/topics/Segmentation.md",
-    "Vision/topics/Stereo.md",
-    "Vision/topics/Model based vision.md",
-    "Vision/topics/Local Features.md",
-    "Vision/topics/Edges and Convolution.md",
-    "Vision/topics/Hough Transform.md",
-    "Vision/topics/Images and Processing.md",
     "NLU/topics/Sequence-to-sequence learning.md",
     "Vision/testing",
     "Vision/topics",
     "Vision",
     "NLU/topics/word representations, N-Gram and RNNs.md",
-    "NLU/testing/NLU Questions.md",
     "NLU/testing/formula sheet.md",
     "NLU/NLU pages.md",
     "NLU/topics/Span extraction.md",
@@ -336,7 +238,6 @@
     "cognitive/robots/Middleware.md",
     "cognitive/topics/manipulation.md",
     "cognitive/topics/Education.md",
-    "cognitive/Cognitive pages.md",
     "NLU/testing",
     "NLU/topics",
     "NLU",
