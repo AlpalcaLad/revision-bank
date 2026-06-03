@@ -64,7 +64,7 @@ examples
 	- same properties as before
 		- except origin doesn't map to origin necessarily
 
-**Affine transformations**
+**Projective transformations**
 - Messing with that bottom line
 - Projective transformations aka homographies
 	- ![[Pasted image 20260601184734.png|191]]
@@ -73,8 +73,9 @@ examples
 	- e.g.
 	- ![[Pasted image 20260601184942.png|367]]
 		- we get black area where no pixels are available
-- properties
+- properties of general homographies
 	- parallel lines don't necessarily stay parallel
+		- note that for affine they do
 	- origin doesn't map to origin necessarily
 	- ratios are not preserved
 - alternate form of homographies
