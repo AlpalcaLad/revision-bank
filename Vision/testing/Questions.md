@@ -19,6 +19,7 @@
 > We could use probabilistic clustering to segment the image, in which each pixel has a defined probability of falling into each cluster, compared to k-means which assigns a single cluster to each pixel at each stage. This has the advantage of k-means that it can handle non spherical groupings, which would be necessary to better group points on the coloured cones in the sample image. 
 > Our feature space would include the r,g,b pixel values along with x,y. It's important to include positions as otherwise similar colours will be considered the same cluster even if theyre part of separate objects. In the case of Figure 2, this would lead to the green cones being clustered with the green background pattern
 > This would work by using taking an initial number of random clusters. At each stage, given our current clusters the ownership of each pixel is calculated and then the clusters are updated with these ownership probabilities. Repeating these two steps iteratively moves closer to the best cluster locations.
+> NB: should mention explicitly E-step /M-step
 
 > [!question]- For the same two images as above, describe an algorithm to calculate depth into the scene
 > First the images would need to be rectified using camera calibration data to ensure points lie on the same horizontal scanline. From here point matches would be made across the image with depth calculated according to the formula Z = b * f / (xl - xr). This takes f as the camera focal length, b as the baseline (physical distance between cameras), xl as the coordinate of the point in the left image and xr the coordinate in the right. 
@@ -31,7 +32,18 @@
 
 
 > [!question]- Describe the Generalised Hough Transform
-> TODO
+> Take a point inside the shape, often the centre
+> For every boundary point of template
+> 	compute edge orientation (normal of edge), call this $\theta$
+> 	calculate vector from boundary point to reference point (r,$\alpha$)
+> 	store the  vector in an R-table indexed by edge orientation $\theta$
+> to test for a match
+> 	get edges of image
+> 	for each pixel in image
+> 		get edge orientation
+> 		look up vector in R table
+> 		use each to predict reference point
+> 	search for local maxima in voted reference points accumilator
 
 
 > [!question]- Give all the differentiation kernels and name them
@@ -56,7 +68,7 @@ $A = \begin{bmatrix} 12 & 1 \\ 4 & 3 \end{bmatrix}$
 
 > [!question]- Explain the PCA algorithm
 > Assemble data into matrix of samples vs variables size
-> apply PCA to the deviation vectors, giving covariance matrix -> eigenvectors
+> apply PCA to the deviation vectors, giving covariance matrix, eigenvectors
 > e.g. $x=\hat{x} + b_1p_1+b_2p_2+b_3p_3$
 > changing b1 might make the shape wider or longer etc
 

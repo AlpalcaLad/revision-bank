@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vision/testing/Questions.md",
+                "file": "Vision/testing/AI generated MCQs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Questions"
+              "title": "AI generated MCQs"
             }
           },
           {
@@ -65,20 +65,6 @@
           },
           {
             "id": "cd911c5fc1ca41dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vision/topics/Model based vision.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Model based vision"
-            }
-          },
-          {
-            "id": "84851fddb1050aac",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -326,18 +312,19 @@
   },
   "active": "37c112c9ef96d0df",
   "lastOpenFiles": [
-    "Vision/topics/Edges and Convolution.md",
-    "Vision/topics/Hough Transform.md",
-    "Vision/topics/Local Features.md",
-    "Vision/testing/Questions.md",
     "Vision/topics/Image stitching.md",
+    "Vision/topics/Local Features.md",
     "Vision/topics/Model based vision.md",
-    "Vision/topics/Images and Processing.md",
-    "Vision/topics/Object recognition.md",
+    "Vision/testing/AI generated MCQs.md",
     "Vision/topics/Segmentation.md",
+    "Vision/testing/Questions.md",
+    "Vision/topics/Stereo.md",
+    "Vision/topics/Hough Transform.md",
+    "Vision/topics/Edges and Convolution.md",
+    "Vision/topics/Object recognition.md",
+    "Vision/topics/Images and Processing.md",
     "Vision/vision pages.md",
     "images/Pasted image 20260602203209.png",
-    "Vision/topics/Stereo.md",
     "images/Pasted image 20260602135018.png",
     "images/Pasted image 20260602134607.png",
     "images/Pasted image 20260602134542.png",

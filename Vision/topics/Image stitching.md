@@ -87,7 +87,7 @@ examples
 	- we don't need to know how to solve for this course
 		- ![[Pasted image 20260601185610.png|331]]
 		- We do need to know
-			- normalise homography matrix  A
+			- normalise homography matrix A
 			- target vector h is unit vector
 			- only 8 unknowns need solving
 			- least of square problem to solve
